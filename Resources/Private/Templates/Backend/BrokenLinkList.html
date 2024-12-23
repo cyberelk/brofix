@@ -40,18 +40,6 @@
 				</select>
 			</div>
 			<div class="col">
-				<label for="view_mode"><f:translate key="LLL:EXT:brofix/Resources/Private/Language/Module/locallang.xlf:list.filter.view"/>:</label>
-				<select id="view_mode" name="view_mode" class="form-control tceforms-select view_mode">
-					<option value="view_table_complex" {f:if(condition: "{view_mode} == 'view_table_complex'", then: 'selected')}>
-						<f:translate key="LLL:EXT:brofix/Resources/Private/Language/Module/locallang.xlf:list.form.table.extended">|||||</f:translate>
-					</option>
-					<option value="view_table_min" {f:if(condition: "{view_mode} == 'view_table_min'", then: 'selected')}>
-						<f:translate key="LLL:EXT:brofix/Resources/Private/Language/Module/locallang.xlf:list.form.table.simple">|||</f:translate>
-					</option>
-				</select>
-			</div>
-
-			<div class="col">
 				<label for="uid_searchFilter"><f:translate key="LLL:EXT:brofix/Resources/Private/Language/Module/locallang.xlf:list.tableHead.element"/>:</label>
 				<input type="search" class="form-control t3js-clearable hasDefaultValue slug-impact t3js-charcounter-initialized" name="uid_searchFilter" placeholder="{f:translate(key: 'LLL:EXT:brofix/Resources/Private/Language/Module/locallang.xlf:list.filter.uid')}" id="uid_searchFilter" value="{uid_filter}"/>
 			</div>
@@ -67,7 +55,6 @@
 					</select>
 				</div>
 			</f:if>
-
 			<div class="col">
 				<label for="url_searchFilter"><f:translate key="LLL:EXT:brofix/Resources/Private/Language/Module/locallang.xlf:list.tableHead.url"/>:</label>
 				<input type="search" size="30" class="form-control t3js-clearable hasDefaultValue slug-impact t3js-charcounter-initialized" name="url_searchFilter" placeholder="{f:translate(key: 'LLL:EXT:brofix/Resources/Private/Language/Module/locallang.xlf:list.filter.url.placeholder')}" id="url_searchFilter" value="{url_filter}"/>
@@ -117,4 +104,3 @@
 		<f:render partial="BrokenLinkList" arguments="{_all}"/>
 	</div>
 </f:section>
-
