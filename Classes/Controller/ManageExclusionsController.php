@@ -1,14 +1,14 @@
 <?php
 
-namespace Sypets\Brofix\Controller;
+namespace Cyberelk\Brofix\Controller;
 
 use Psr\Http\Message\ServerRequestInterface;
-use Sypets\Brofix\BackendSession\BackendSession;
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\Controller\BackendUser\BackendUserInformation;
-use Sypets\Brofix\Controller\Filter\ManageExclusionsFilter;
-use Sypets\Brofix\Repository\ExcludeLinkTargetRepository;
+use Cyberelk\Brofix\BackendSession\BackendSession;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Controller\BackendUser\BackendUserInformation;
+use Cyberelk\Brofix\Controller\Filter\ManageExclusionsFilter;
+use Cyberelk\Brofix\Repository\ExcludeLinkTargetRepository;
 use TYPO3\CMS\Backend\Template\ModuleTemplate;
 use TYPO3\CMS\Core\Charset\CharsetConverter;
 use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
