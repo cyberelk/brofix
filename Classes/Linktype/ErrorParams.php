@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Linktype;
+namespace Cyberelk\Brofix\Linktype;
 
 /*
 * This file is part of the TYPO3 CMS project.
