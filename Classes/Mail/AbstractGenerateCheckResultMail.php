@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Mail;
+namespace Cyberelk\Brofix\Mail;
 
 /*
  * This file is part of the TYPO3 CMS project.
