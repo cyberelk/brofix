@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Mail;
+namespace Cyberelk\Brofix\Mail;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -19,9 +19,9 @@ namespace Sypets\Brofix\Mail;
 use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Mailer\SentMessage;
 use Symfony\Component\Mime\Address;
-use Sypets\Brofix\CheckLinks\CheckLinksStatistics;
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\Exceptions\MissingConfigurationException;
+use Cyberelk\Brofix\CheckLinks\CheckLinksStatistics;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Exceptions\MissingConfigurationException;
 use TYPO3\CMS\Core\Mail\FluidEmail;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Fluid\View\TemplatePaths;
