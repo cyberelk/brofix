@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Tests\Unit\Linktype;
+namespace Cyberelk\Brofix\Tests\Unit\Linktype;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -21,10 +21,10 @@ use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Psr7\Response;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
-use Sypets\Brofix\Linktype\ExternalLinktype;
-use Sypets\Brofix\Tests\Unit\AbstractUnit;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
+use Cyberelk\Brofix\Linktype\ExternalLinktype;
+use Cyberelk\Brofix\Tests\Unit\AbstractUnit;
 use TYPO3\CMS\Core\Http\RequestFactory;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
