@@ -13,10 +13,10 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-namespace Sypets\Brofix\Hooks;
+namespace Cyberelk\Brofix\Hooks;
 
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Repository\BrokenLinkRepository;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Repository\BrokenLinkRepository;
 use TYPO3\CMS\Backend\Utility\BackendUtility;
 use TYPO3\CMS\Core\DataHandling\DataHandler;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
