@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Repository;
+namespace Cyberelk\Brofix\Repository;
 
 use Doctrine\DBAL\Exception\TableNotFoundException;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Controller\Filter\BrokenLinkListFilter;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Controller\Filter\BrokenLinkListFilter;
 use TYPO3\CMS\Core\Database\Connection;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Database\Platform\PlatformInformation;
