@@ -13,12 +13,12 @@ declare(strict_types=1);
  *
  ***/
 
-namespace Sypets\Brofix\BackendSession;
+namespace Cyberelk\Brofix\BackendSession;
 
 use __PHP_Incomplete_Class;
-use Sypets\Brofix\Controller\Filter\BrokenLinkListFilter;
-use Sypets\Brofix\Controller\Filter\ManageExclusionsFilter;
-use Sypets\Brofix\Util\Arrayable;
+use Cyberelk\Brofix\Controller\Filter\BrokenLinkListFilter;
+use Cyberelk\Brofix\Controller\Filter\ManageExclusionsFilter;
+use Cyberelk\Brofix\Util\Arrayable;
 use TYPO3\CMS\Core\Authentication\BackendUserAuthentication;
 
 class BackendSession
