@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Controller\BackendUser;
+namespace Cyberelk\Brofix\Controller\BackendUser;
 
 /**
  * Class stores permission information for current BE user
