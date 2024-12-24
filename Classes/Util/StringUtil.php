@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Util;
+namespace Cyberelk\Brofix\Util;
 
 class StringUtil
 {
