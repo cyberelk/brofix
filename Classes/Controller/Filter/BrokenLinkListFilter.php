@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Controller\Filter;
+namespace Cyberelk\Brofix\Controller\Filter;
 
-use Sypets\Brofix\Util\Arrayable;
+use Cyberelk\Brofix\Util\Arrayable;
 
 class BrokenLinkListFilter implements Arrayable
 {
