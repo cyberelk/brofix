@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Tests\Functional\CheckLinks\LinkTargetCache;
+namespace Cyberelk\Brofix\Tests\Functional\CheckLinks\LinkTargetCache;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -17,10 +17,10 @@ namespace Sypets\Brofix\Tests\Functional\CheckLinks\LinkTargetCache;
  * The TYPO3 project - inspiring people to share!
  */
 
-use Sypets\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
-use Sypets\Brofix\Linktype\ErrorParams;
-use Sypets\Brofix\Linktype\ExternalLinktype;
-use Sypets\Brofix\Tests\Functional\AbstractFunctional;
+use Cyberelk\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
+use Cyberelk\Brofix\Linktype\ErrorParams;
+use Cyberelk\Brofix\Linktype\ExternalLinktype;
+use Cyberelk\Brofix\Tests\Functional\AbstractFunctional;
 
 class LinkTargetPersistentCacheTest extends AbstractFunctional
 {
