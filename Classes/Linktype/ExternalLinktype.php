@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Linktype;
+namespace Cyberelk\Brofix\Linktype;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -24,11 +24,11 @@ use GuzzleHttp\Exception\ServerException;
 use GuzzleHttp\Exception\TooManyRedirectsException;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
-use Sypets\Brofix\CheckLinks\CrawlDelay;
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\CheckLinks\LinkTargetCache\LinkTargetCacheInterface;
-use Sypets\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
-use Sypets\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\CheckLinks\CrawlDelay;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\CheckLinks\LinkTargetCache\LinkTargetCacheInterface;
+use Cyberelk\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
+use Cyberelk\Brofix\Configuration\Configuration;
 use TYPO3\CMS\Core\Http\RequestFactory;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\HttpUtility;
