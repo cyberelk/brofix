@@ -1,6 +1,6 @@
 <?php
 
-use Sypets\Brofix\FormEngine\CustomEvaluation\ExcludeLinkTargetsLinkTargetEvaluation;
+use Cyberelk\Brofix\FormEngine\CustomEvaluation\ExcludeLinkTargetsLinkTargetEvaluation;
 use TYPO3\CMS\Backend\Form\FormDataProvider\TcaColumnsProcessCommon;
 use TYPO3\CMS\Backend\Form\FormDataProvider\TcaColumnsProcessShowitem;
 use TYPO3\CMS\Backend\Form\FormDataProvider\TcaColumnsRemoveUnused;
