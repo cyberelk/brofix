@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix;
+namespace Cyberelk\Brofix;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -20,16 +20,16 @@ namespace Sypets\Brofix;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
-use Sypets\Brofix\CheckLinks\CheckLinksStatistics;
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\Linktype\AbstractLinktype;
+use Cyberelk\Brofix\CheckLinks\CheckLinksStatistics;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Linktype\AbstractLinktype;
 
-use Sypets\Brofix\Parser\LinkParser;
+use Cyberelk\Brofix\Parser\LinkParser;
 
-use Sypets\Brofix\Repository\BrokenLinkRepository;
-use Sypets\Brofix\Repository\ContentRepository;
-use Sypets\Brofix\Repository\PagesRepository;
+use Cyberelk\Brofix\Repository\BrokenLinkRepository;
+use Cyberelk\Brofix\Repository\ContentRepository;
+use Cyberelk\Brofix\Repository\PagesRepository;
 use TYPO3\CMS\Backend\Utility\BackendUtility;
 use TYPO3\CMS\Core\Database\Connection;
 use TYPO3\CMS\Core\Database\ConnectionPool;
