@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Tests\Functional\CheckLinks;
+namespace Cyberelk\Brofix\Tests\Functional\CheckLinks;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -17,8 +17,8 @@ namespace Sypets\Brofix\Tests\Functional\CheckLinks;
  * The TYPO3 project - inspiring people to share!
  */
 
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Tests\Functional\AbstractFunctional;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Tests\Functional\AbstractFunctional;
 
 class ExcludeLinkTargetTest extends AbstractFunctional
 {
