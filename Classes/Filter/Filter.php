@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Filter;
+namespace Cyberelk\Brofix\Filter;
 
 /**
  * This is no longer used but will result in exception if removed due to being
