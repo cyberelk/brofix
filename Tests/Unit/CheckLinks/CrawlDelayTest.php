@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Tests\Unit\Configuration;
+namespace Cyberelk\Brofix\Tests\Unit\Configuration;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -16,8 +16,8 @@ namespace Sypets\Brofix\Tests\Unit\Configuration;
  * The TYPO3 project - inspiring people to share!
  */
 
-use Sypets\Brofix\CheckLinks\CrawlDelay;
-use Sypets\Brofix\Tests\Unit\AbstractUnit;
+use Cyberelk\Brofix\CheckLinks\CrawlDelay;
+use Cyberelk\Brofix\Tests\Unit\AbstractUnit;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class CrawlDelayTest extends AbstractUnit
