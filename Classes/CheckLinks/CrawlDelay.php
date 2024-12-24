@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\CheckLinks;
+namespace Cyberelk\Brofix\CheckLinks;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -16,7 +16,7 @@ namespace Sypets\Brofix\CheckLinks;
  * The TYPO3 project - inspiring people to share!
  */
 
-use Sypets\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Configuration\Configuration;
 
 /**
  * Makes sure that there is a minimum wait time between checking
