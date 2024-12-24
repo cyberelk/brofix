@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\CheckLinks;
+namespace Cyberelk\Brofix\CheckLinks;
 
 /*
  * This file is part of the TYPO3 CMS project.
