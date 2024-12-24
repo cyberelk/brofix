@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Controller\UiHelper;
+namespace Cyberelk\Brofix\Controller\UiHelper;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
