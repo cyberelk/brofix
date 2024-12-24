@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Mail;
+namespace Cyberelk\Brofix\Mail;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -16,8 +16,8 @@ namespace Sypets\Brofix\Mail;
  * The TYPO3 project - inspiring people to share!
  */
 
-use Sypets\Brofix\CheckLinks\CheckLinksStatistics;
-use Sypets\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\CheckLinks\CheckLinksStatistics;
+use Cyberelk\Brofix\Configuration\Configuration;
 
 interface GenerateCheckResultMailInterface
 {
