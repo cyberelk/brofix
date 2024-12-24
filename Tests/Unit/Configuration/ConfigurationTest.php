@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Tests\Unit\Configuration;
+namespace Cyberelk\Brofix\Tests\Unit\Configuration;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -17,7 +17,7 @@ namespace Sypets\Brofix\Tests\Unit\Configuration;
  */
 
 use Symfony\Component\Mime\Address;
-use Sypets\Brofix\Tests\Unit\AbstractUnit;
+use Cyberelk\Brofix\Tests\Unit\AbstractUnit;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ConfigurationTest extends AbstractUnit
