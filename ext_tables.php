@@ -8,7 +8,7 @@ defined('TYPO3') or die();
     'after:info',
     '',
     [
-        'routeTarget' => \Sypets\Brofix\Controller\BrofixController::class . '::mainAction',
+        'routeTarget' => \Cyberelk\Brofix\Controller\BrofixController::class . '::mainAction',
         'access' => 'user,group',
         'name' => 'web_brofix',
         'path' => '/module/page/link-reports',
@@ -20,7 +20,7 @@ defined('TYPO3') or die();
 // Add Info module: Broken link list
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::insertModuleFunction(
     'web_brofix',
-    \Sypets\Brofix\Controller\BrokenLinkListController::class,
+    \Cyberelk\Brofix\Controller\BrokenLinkListController::class,
     null,
     'LLL:EXT:brofix/Resources/Private/Language/locallang.xlf:function.list.header.broken_links'
 );
@@ -28,7 +28,7 @@ defined('TYPO3') or die();
 // Add Info module: Manage exclusions
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::insertModuleFunction(
     'web_brofix',
-    \Sypets\Brofix\Controller\ManageExclusionsController::class,
+    \Cyberelk\Brofix\Controller\ManageExclusionsController::class,
     null,
     'LLL:EXT:brofix/Resources/Private/Language/locallang.xlf:function.list.header.manage_exclusions'
 );
