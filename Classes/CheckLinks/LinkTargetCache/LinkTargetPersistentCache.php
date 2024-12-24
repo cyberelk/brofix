@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\CheckLinks\LinkTargetCache;
+namespace Cyberelk\Brofix\CheckLinks\LinkTargetCache;
 
 /*
  * This file is part of the TYPO3 CMS project.
