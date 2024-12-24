@@ -1,14 +1,14 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Parser;
+namespace Cyberelk\Brofix\Parser;
 
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Log\LoggerAwareTrait;
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\Linktype\AbstractLinktype;
-use Sypets\Brofix\Repository\ContentRepository;
-use Sypets\Brofix\Util\TcaUtil;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Linktype\AbstractLinktype;
+use Cyberelk\Brofix\Repository\ContentRepository;
+use Cyberelk\Brofix\Util\TcaUtil;
 use TYPO3\CMS\Backend\Form\Exception\DatabaseDefaultLanguageException;
 use TYPO3\CMS\Backend\Form\FormDataCompiler;
 use TYPO3\CMS\Core\DataHandling\SoftReference\SoftReferenceParserFactory;
