@@ -15,9 +15,9 @@ declare(strict_types=1);
  * The TYPO3 project - inspiring people to share!
  */
 
-namespace Sypets\Brofix\EventListener;
+namespace Cyberelk\Brofix\EventListener;
 
-use Sypets\Brofix\Repository\BrokenLinkRepository;
+use Cyberelk\Brofix\Repository\BrokenLinkRepository;
 use TYPO3\CMS\Core\Html\Event\BrokenLinkAnalysisEvent;
 use TYPO3\CMS\Core\LinkHandling\LinkService;
 use TYPO3\CMS\Core\Resource\FileInterface;
