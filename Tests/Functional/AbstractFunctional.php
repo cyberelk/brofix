@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Tests\Functional;
+namespace Cyberelk\Brofix\Tests\Functional;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -18,8 +18,8 @@ namespace Sypets\Brofix\Tests\Functional;
  */
 
 use Psr\Http\Message\ServerRequestInterface;
-use Sypets\Brofix\Command\CommandUtility;
-use Sypets\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Command\CommandUtility;
+use Cyberelk\Brofix\Configuration\Configuration;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\TestingFramework\Core\Functional\FunctionalTestCase;
 
