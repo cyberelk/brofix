@@ -11,7 +11,7 @@ Changelog
    Since version 2.3.0 and higher, we list only the important changes here
    (specifically breaking changes).
    For more changes, please see the respective release notes and commit messages
-   in the GitHub repository: https://github.com/sypets/brofix
+   in the GitHub repository: https://github.com/cyberelk/brofix
 
 
 4.5.x
@@ -27,7 +27,7 @@ Changelog
 =====
 
 -  Remove page layout action button (due to inconsistencies in usability):
-   https://github.com/sypets/brofix/pull/200
+   https://github.com/cyberelk/brofix/pull/200
 
 -  Add new icon
 
@@ -85,10 +85,10 @@ Changelog
 =====
 
 *  Fix setting of depth=0 via CLI command brofix:checklinks
-   (issue:`69 <https://github.com/sypets/brofix/issues/69>`__)
+   (issue:`69 <https://github.com/cyberelk/brofix/issues/69>`__)
 *  Fix fatal error: Exception was thrown on CLI command checklinks if
    replytoemail was set (due to call to not existing function).
-   (issue:`66 <https://github.com/sypets/brofix/issues/66>`__)
+   (issue:`66 <https://github.com/cyberelk/brofix/issues/66>`__)
 *  Fix version constraints (in ext_emconf.php)
 
 2.1.0

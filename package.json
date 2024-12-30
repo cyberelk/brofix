@@ -1,7 +1,7 @@
 {
 	"name": "brofix",
 	"description": "Broken link fixer",
-	"repository": "https://github.com/sypets/brofix",
+	"repository": "https://github.com/cyberelk/brofix",
 	"author": "Sybille Peters",
 	"license": "GPL-2.0+",
 	"engines": {

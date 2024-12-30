@@ -20,9 +20,9 @@
 		}
 	],
 	"support": {
-		"docs": "https://docs.typo3.org/p/sypets/brofix/main/en-us/Index.html",
-		"issues": "https://github.com/sypets/brofix/issues",
-		"source": "https://github.com/sypets/brofix"
+		"docs": "https://docs.typo3.org/p/cyberelk/brofix/main/en-us/Index.html",
+		"issues": "https://github.com/cyberelk/brofix/issues",
+		"source": "https://github.com/cyberelk/brofix"
 	},
 	"config": {
 		"sort-packages": true,
