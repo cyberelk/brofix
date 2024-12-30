@@ -7,7 +7,7 @@ TSconfig Reference
 ==================
 
 Default configuration:
-https://github.com/sypets/brofix/blob/main/Configuration/TsConfig/Page/pagetsconfig.tsconfig
+https://github.com/cyberelk/brofix/blob/main/Configuration/TsConfig/Page/pagetsconfig.tsconfig
 
 .. contents::
    :local:
@@ -645,7 +645,7 @@ report.docsurl
 
       .. code-block:: typoscript
 
-         report.docsurl = https://docs.typo3.org/p/sypets/brofix/main/en-us/Index.html
+         report.docsurl = https://docs.typo3.org/p/cyberelk/brofix/main/en-us/Index.html
 
    Default
       Empty

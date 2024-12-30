@@ -1,8 +1,8 @@
 [![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg)](https://get.typo3.org/version/11)
 [![TYPO3 12](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
 [![Crowdin](https://badges.crowdin.net/typo3-extension-brofix/localized.svg)](https://crowdin.com/project/typo3-extension-brofix)
-[![CI Status](https://github.com/sypets/brofix/workflows/CI/badge.svg)](https://github.com/sypets/brofix/actions)
-[![Downloads](https://img.shields.io/packagist/dt/sypets/brofix)](https://packagist.org/packages/sypets/brofix)
+[![CI Status](https://github.com/cyberelk/brofix/workflows/CI/badge.svg)](https://github.com/cyberelk/brofix/actions)
+[![Downloads](https://img.shields.io/packagist/dt/cyberelk/brofix)](https://packagist.org/packages/cyberelk/brofix)
 
 # TYPO3 extension `brofix`
 
@@ -24,6 +24,6 @@ whom this work would not have been possible.
 
 |                  | URL                                                |
 |------------------|----------------------------------------------------|
-| **Repository:**  | https://github.com/sypets/brofix                   |
-| **Read online:** | https://docs.typo3.org/p/sypets/brofix/main/en-us/ |
+| **Repository:**  | https://github.com/cyberelk/brofix                   |
+| **Read online:** | https://docs.typo3.org/p/cyberelk/brofix/main/en-us/ |
 | **TER:**         | https://extensions.typo3.org/extension/brofix      |

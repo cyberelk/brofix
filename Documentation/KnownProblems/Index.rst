@@ -54,4 +54,4 @@ Issues
 
 For more known problems see the list of issues:
 
-* https://github.com/sypets/brofix/issues
+* https://github.com/cyberelk/brofix/issues

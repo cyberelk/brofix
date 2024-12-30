@@ -173,7 +173,7 @@ class ManageExclusionsController extends AbstractBrofixController
         $pageRenderer = $this->pageRenderer;
         $pageRenderer->addCssFile('EXT:brofix/Resources/Public/Css/brofix.css', 'stylesheet', 'screen');
         $pageRenderer->addCssFile('EXT:brofix/Resources/Public/Css/brofix_manage_exclusions.css', 'stylesheet', 'screen');
-        $this->pageRenderer->loadJavaScriptModule('@sypets/brofix/ManageExclusions.js');
+        $this->pageRenderer->loadJavaScriptModule('@cyberelk/brofix/ManageExclusions.js');
         $pageRenderer->addInlineLanguageLabelFile('EXT:brofix/Resources/Private/Language/Module/locallang.xlf');
     }
 

@@ -10,7 +10,7 @@ If you are using Composer, you can install it like any other extension.
 
 .. code-block:: shell
 
-   composer require sypets/brofix
+   composer require cyberelk/brofix
 
 If you are not using Composer, you can install Broken Link Fixer
 (brofix) using the Extension Manager.

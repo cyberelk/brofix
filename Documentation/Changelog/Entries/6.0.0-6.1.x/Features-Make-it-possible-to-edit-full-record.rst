@@ -9,7 +9,7 @@ Feature: issue 352 - Make it possible to edit the full record
 See
 
 * core :issue:`103493`
-* brofix issue https://github.com/sypets/brofix/issues/352
+* brofix issue https://github.com/cyberelk/brofix/issues/352
 
 Description
 ===========
