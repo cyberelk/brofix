@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Configuration;
+namespace Cyberelk\Brofix\Configuration;
 
 use Symfony\Component\Mime\Address;
-use Sypets\Brofix\FormEngine\FieldShouldBeChecked;
-use Sypets\Brofix\FormEngine\FieldShouldBeCheckedFull;
-use Sypets\Brofix\FormEngine\FieldShouldBeCheckedWithFlexform;
-use Sypets\Brofix\Linktype\AbstractLinktype;
-use Sypets\Brofix\Linktype\LinktypeInterface;
+use Cyberelk\Brofix\FormEngine\FieldShouldBeChecked;
+use Cyberelk\Brofix\FormEngine\FieldShouldBeCheckedFull;
+use Cyberelk\Brofix\FormEngine\FieldShouldBeCheckedWithFlexform;
+use Cyberelk\Brofix\Linktype\AbstractLinktype;
+use Cyberelk\Brofix\Linktype\LinktypeInterface;
 use TYPO3\CMS\Backend\Utility\BackendUtility;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;

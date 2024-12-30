@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Command;
+namespace Cyberelk\Brofix\Command;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -22,12 +22,12 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use Sypets\Brofix\CheckLinks\CheckLinksStatistics;
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\LinkAnalyzer;
-use Sypets\Brofix\Mail\GenerateCheckResultFluidMail;
-use Sypets\Brofix\Repository\BrokenLinkRepository;
-use Sypets\Brofix\Repository\PagesRepository;
+use Cyberelk\Brofix\CheckLinks\CheckLinksStatistics;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\LinkAnalyzer;
+use Cyberelk\Brofix\Mail\GenerateCheckResultFluidMail;
+use Cyberelk\Brofix\Repository\BrokenLinkRepository;
+use Cyberelk\Brofix\Repository\PagesRepository;
 use TYPO3\CMS\Backend\Utility\BackendUtility;
 use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 use TYPO3\CMS\Core\Core\Environment;

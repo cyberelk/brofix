@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Controller\Filter;
+namespace Cyberelk\Brofix\Controller\Filter;
 
-use Sypets\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
-use Sypets\Brofix\Util\Arrayable;
+use Cyberelk\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
+use Cyberelk\Brofix\Util\Arrayable;
 use TYPO3\CMS\Backend\Module\ModuleData;
 
 class BrokenLinkListFilter implements Arrayable

@@ -200,8 +200,8 @@ This setting results in 2 changes:
 By default, one of the following class names to use as FormDataGroup for TCA
 processing will be used based on the value of tcaProcessing:
 
-* "default": Sypets\Brofix\FormEngine\FieldShouldBeChecked
-* "full": Sypets\Brofix\FormEngine\FieldShouldBeCheckedWithFlexform
+* "default": Cyberelk\Brofix\FormEngine\FieldShouldBeChecked
+* "full": Cyberelk\Brofix\FormEngine\FieldShouldBeCheckedWithFlexform
 
 .. _extensionConfiguation_overrideFormDataGroup:
 

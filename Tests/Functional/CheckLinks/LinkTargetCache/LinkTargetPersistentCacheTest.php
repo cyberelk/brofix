@@ -1,11 +1,11 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Tests\Functional\CheckLinks\LinkTargetCache;
+namespace Cyberelk\Brofix\Tests\Functional\CheckLinks\LinkTargetCache;
 
-use Sypets\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
-use Sypets\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
-use Sypets\Brofix\Tests\Functional\AbstractFunctional;
+use Cyberelk\Brofix\CheckLinks\LinkTargetCache\LinkTargetPersistentCache;
+use Cyberelk\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
+use Cyberelk\Brofix\Tests\Functional\AbstractFunctional;
 
 class LinkTargetPersistentCacheTest extends AbstractFunctional
 {

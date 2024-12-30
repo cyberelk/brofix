@@ -1,10 +1,10 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Controller;
+namespace Cyberelk\Brofix\Controller;
 
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Configuration\Configuration;
 use TYPO3\CMS\Backend\Module\ModuleData;
 use TYPO3\CMS\Backend\Routing\Exception\RouteNotFoundException;
 use TYPO3\CMS\Backend\Routing\UriBuilder;

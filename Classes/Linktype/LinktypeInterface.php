@@ -1,10 +1,10 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Linktype;
+namespace Cyberelk\Brofix\Linktype;
 
-use Sypets\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
-use Sypets\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
+use Cyberelk\Brofix\Configuration\Configuration;
 
 /**
  * This class provides interface implementation.

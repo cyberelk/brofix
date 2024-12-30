@@ -4,27 +4,27 @@ services:
     autoconfigure: true
     public: false
 
-  Sypets\Brofix\:
+  Cyberelk\Brofix\:
     resource: '../Classes/*'
 
-  Sypets\Brofix\LinkAnalyzer:
+  Cyberelk\Brofix\LinkAnalyzer:
     public: true
 
-  Sypets\Brofix\Repository\BrokenLinkRepository:
+  Cyberelk\Brofix\Repository\BrokenLinkRepository:
     public: true
 
   # backend module
-  #Sypets\Brofix\Controller\BrofixController:
+  #Cyberelk\Brofix\Controller\BrofixController:
   #  tags: [ 'backend.controller' ]
 
-  Sypets\Brofix\Controller\BrokenLinkListController:
+  Cyberelk\Brofix\Controller\BrokenLinkListController:
     tags: [ 'backend.controller' ]
 
-  Sypets\Brofix\Controller\ManageExclusionsController:
+  Cyberelk\Brofix\Controller\ManageExclusionsController:
     tags: [ 'backend.controller' ]
 
   # EventListeners
-  Sypets\Brofix\EventListener\CheckBrokenRteLinkEventListener:
+  Cyberelk\Brofix\EventListener\CheckBrokenRteLinkEventListener:
     tags:
       - name: event.listener
         identifier: 'rte-check-link-external'
@@ -40,7 +40,7 @@ services:
         method: 'checkFileLink'
 
   # Commands
-  Sypets\Brofix\Command\CheckLinksCommand:
+  Cyberelk\Brofix\Command\CheckLinksCommand:
     tags:
       - name: 'console.command'
         command: 'brofix:checklinks'

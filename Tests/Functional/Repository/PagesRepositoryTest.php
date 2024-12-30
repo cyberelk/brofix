@@ -15,10 +15,10 @@ declare(strict_types=1);
  * The TYPO3 project - inspiring people to share!
  */
 
-namespace Sypets\Brofix\Tests\Functional\Repository;
+namespace Cyberelk\Brofix\Tests\Functional\Repository;
 
-use Sypets\Brofix\Repository\PagesRepository;
-use Sypets\Brofix\Tests\Functional\AbstractFunctional;
+use Cyberelk\Brofix\Repository\PagesRepository;
+use Cyberelk\Brofix\Tests\Functional\AbstractFunctional;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class PagesRepositoryTest extends AbstractFunctional

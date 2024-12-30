@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Tests\Functional\CheckLinks;
+namespace Cyberelk\Brofix\Tests\Functional\CheckLinks;
 
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Tests\Functional\AbstractFunctional;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Tests\Functional\AbstractFunctional;
 
 class ExcludeLinkTargetTest extends AbstractFunctional
 {

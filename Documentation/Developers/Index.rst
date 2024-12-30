@@ -36,8 +36,8 @@ types are checked:
    declare(strict_types=1);
    namespace Myvendor\MyExtension\Linktype;
 
-   use Sypets\Brofix\Linktype\ErrorParams;
-   use Sypets\Brofix\Linktype\ExternalLinktype;
+   use Cyberelk\Brofix\Linktype\ErrorParams;
+   use Cyberelk\Brofix\Linktype\ExternalLinktype;
 
    class ExternalUniolLinktype extends ExternalLinktype
    {

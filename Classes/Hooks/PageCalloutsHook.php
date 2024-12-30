@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Hooks;
+namespace Cyberelk\Brofix\Hooks;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -16,7 +16,7 @@ namespace Sypets\Brofix\Hooks;
  * The TYPO3 project - inspiring people to share!
  */
 
-use Sypets\Brofix\Repository\BrokenLinkRepository;
+use Cyberelk\Brofix\Repository\BrokenLinkRepository;
 use TYPO3\CMS\Backend\Routing\UriBuilder;
 use TYPO3\CMS\Core\Authentication\BackendUserAuthentication;
 use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;

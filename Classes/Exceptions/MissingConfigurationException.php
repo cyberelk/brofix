@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Exceptions;
+namespace Cyberelk\Brofix\Exceptions;
 
 class MissingConfigurationException extends \Exception
 {

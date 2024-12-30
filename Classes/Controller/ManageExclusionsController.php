@@ -1,14 +1,14 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Controller;
+namespace Cyberelk\Brofix\Controller;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\Controller\Filter\ManageExclusionsFilter;
-use Sypets\Brofix\Repository\ExcludeLinkTargetRepository;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Controller\Filter\ManageExclusionsFilter;
+use Cyberelk\Brofix\Repository\ExcludeLinkTargetRepository;
 use TYPO3\CMS\Backend\Template\ModuleTemplate;
 use TYPO3\CMS\Backend\Template\ModuleTemplateFactory;
 use TYPO3\CMS\Core\Charset\CharsetConverter;

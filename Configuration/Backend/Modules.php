@@ -3,8 +3,8 @@
 declare(strict_types=1);
 // see https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.0/Feature-96733-NewBackendModuleRegistrationAPI.html
 
-use Sypets\Brofix\Controller\BrokenLinkListController;
-use Sypets\Brofix\Controller\ManageExclusionsController;
+use Cyberelk\Brofix\Controller\BrokenLinkListController;
+use Cyberelk\Brofix\Controller\ManageExclusionsController;
 
 return [
     'web_brofix' => [

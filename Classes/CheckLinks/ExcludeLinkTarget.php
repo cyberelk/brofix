@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\CheckLinks;
+namespace Cyberelk\Brofix\CheckLinks;
 
 use TYPO3\CMS\Core\Database\Connection;
 use TYPO3\CMS\Core\Database\ConnectionPool;

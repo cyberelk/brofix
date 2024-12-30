@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\Tests\Unit;
+namespace Cyberelk\Brofix\Tests\Unit;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -19,7 +19,7 @@ namespace Sypets\Brofix\Tests\Unit;
 use Prophecy\Argument;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
-use Sypets\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Configuration\Configuration;
 use TYPO3\CMS\Core\Localization\LanguageService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\TestingFramework\Core\Unit\UnitTestCase;

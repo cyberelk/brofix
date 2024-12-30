@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Controller;
+namespace Cyberelk\Brofix\Controller;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Sypets\Brofix\CheckLinks\ExcludeLinkTarget;
-use Sypets\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\Controller\Filter\BrokenLinkListFilter;
-use Sypets\Brofix\LinkAnalyzer;
-use Sypets\Brofix\Linktype\LinktypeInterface;
-use Sypets\Brofix\Repository\BrokenLinkRepository;
-use Sypets\Brofix\Repository\PagesRepository;
-use Sypets\Brofix\Util\StringUtil;
+use Cyberelk\Brofix\CheckLinks\ExcludeLinkTarget;
+use Cyberelk\Brofix\CheckLinks\LinkTargetResponse\LinkTargetResponse;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\Controller\Filter\BrokenLinkListFilter;
+use Cyberelk\Brofix\LinkAnalyzer;
+use Cyberelk\Brofix\Linktype\LinktypeInterface;
+use Cyberelk\Brofix\Repository\BrokenLinkRepository;
+use Cyberelk\Brofix\Repository\PagesRepository;
+use Cyberelk\Brofix\Util\StringUtil;
 use TYPO3\CMS\Backend\Routing\Exception\RouteNotFoundException;
 use TYPO3\CMS\Backend\Routing\UriBuilder;
 use TYPO3\CMS\Backend\Template\ModuleTemplate;

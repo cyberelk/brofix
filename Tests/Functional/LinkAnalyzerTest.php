@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Tests\Functional;
+namespace Cyberelk\Brofix\Tests\Functional;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -17,8 +17,8 @@ namespace Sypets\Brofix\Tests\Functional;
  * The TYPO3 project - inspiring people to share!
  */
 
-use Sypets\Brofix\Configuration\Configuration;
-use Sypets\Brofix\LinkAnalyzer;
+use Cyberelk\Brofix\Configuration\Configuration;
+use Cyberelk\Brofix\LinkAnalyzer;
 use TYPO3\CMS\Core\Core\Bootstrap;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
 

@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Sypets\Brofix\CheckLinks\LinkTargetResponse;
+namespace Cyberelk\Brofix\CheckLinks\LinkTargetResponse;
 
 class LinkTargetResponse
 {

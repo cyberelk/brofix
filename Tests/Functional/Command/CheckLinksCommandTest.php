@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sypets\Brofix\Tests\Functional\Command;
+namespace Cyberelk\Brofix\Tests\Functional\Command;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -18,9 +18,9 @@ namespace Sypets\Brofix\Tests\Functional\Command;
  */
 
 use Symfony\Component\Console\Tester\CommandTester;
-use Sypets\Brofix\Command\CheckLinksCommand;
-use Sypets\Brofix\Exceptions\MissingConfigurationException;
-use Sypets\Brofix\Tests\Functional\AbstractFunctional;
+use Cyberelk\Brofix\Command\CheckLinksCommand;
+use Cyberelk\Brofix\Exceptions\MissingConfigurationException;
+use Cyberelk\Brofix\Tests\Functional\AbstractFunctional;
 use TYPO3\CMS\Core\Authentication\CommandLineUserAuthentication;
 use TYPO3\CMS\Core\Core\Bootstrap;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
